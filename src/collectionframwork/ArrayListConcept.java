@@ -11,7 +11,8 @@ public class ArrayListConcept {
 		
 		/*Java ArrayList class:
 
-Java ArrayList class uses a dynamic array for storing the elements. It inherits AbstractList class and implements List interface.
+Java ArrayList class uses a dynamic array for storing the elements.
+ It inherits AbstractList class and implements List interface.
 
 The important points about Java ArrayList class are:
 
@@ -19,7 +20,8 @@ The important points about Java ArrayList class are:
 +Java ArrayList class maintains insertion order.
 +Java ArrayList class is non synchronized.
 +Java ArrayList allows random access because array works at the index basis.
-+In Java ArrayList class, manipulation is slow because a lot of shifting needs to be occurred if any element is removed from the array list.
++In Java ArrayList class, manipulation is slow because a lot of shifting 
+needs to be occurred if any element is removed from the array list.
 
 Learn:
 +Static Array and Dynamic Array
@@ -60,9 +62,11 @@ Learn:
 		al.addAll(ar);
 		System.out.println("After Retaaining another  array list"); //prints commen elemets of both the list
 		al.retainAll(ar);
+		al.iterator();
 	
 		System.out.println(al);
 		ArrayList<E> ar1=new ArrayList<E>();
+		
 		
 		Employee e1=new Employee("praveen",101,"QA");
 		Employee e2=new Employee("pavan",101,"dev");
@@ -82,6 +86,7 @@ Learn:
 		ar2.add(e3);
 		
 		Iterator<Employee> it=ar2.iterator();
+		
 		
 		while(it.hasNext()){
 			Employee emp=it.next();

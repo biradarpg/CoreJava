@@ -2,6 +2,7 @@ package collectionframwork;
 
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.ListIterator;
 
 public class LinkedListConcept {
 	
@@ -31,7 +32,7 @@ The last node has a pointer to nothingness to indicate that it is the last node.
 		ll.addLast("Biradar");
 		System.out.println("Content of Linked list "+ll);
 		//set the value
-		ll.set(0, "Raj");
+		ll.set(4, "Raj");
 		System.out.println("Content of Linked list "+ll);
 		//remove last
 		ll.removeLast();
@@ -41,6 +42,12 @@ The last node has a pointer to nothingness to indicate that it is the last node.
 		}
 		System.out.println("---------------------------------------");
 		//print the elements of linked list using for loop
+		ListIterator<String> li=ll.listIterator();
+		while(li.hasNext()) {
+			System.out.println(li.next());
+		}
+		System.out.println("---------------------------------------");
+		System.out.println("with ll.elements "+ll.element());
 		for(String l:ll){
 			System.out.println(l);
 		}

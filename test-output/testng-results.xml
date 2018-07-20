@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="127" started-at="2018-07-19T12:54:13Z" finished-at="2018-07-19T12:54:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="127" started-at="2018-07-19T12:54:13Z" finished-at="2018-07-19T12:54:13Z">
+      <class name="stringfunctions.TestString">
+        <test-method status="PASS" signature="beforeMeth()[pri:0, instance:stringfunctions.TestString@4f933fd1]" name="beforeMeth" is-config="true" duration-ms="11" started-at="2018-07-19T12:54:13Z" finished-at="2018-07-19T12:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMeth -->
+        <test-method status="PASS" signature="duplicate()[pri:0, instance:stringfunctions.TestString@4f933fd1]" name="duplicate" duration-ms="18" started-at="2018-07-19T12:54:13Z" finished-at="2018-07-19T12:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicate -->
+        <test-method status="PASS" signature="afterMeth()[pri:0, instance:stringfunctions.TestString@4f933fd1]" name="afterMeth" is-config="true" duration-ms="1" started-at="2018-07-19T12:54:13Z" finished-at="2018-07-19T12:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMeth -->
+        <test-method status="PASS" signature="beforeMeth()[pri:0, instance:stringfunctions.TestString@4f933fd1]" name="beforeMeth" is-config="true" duration-ms="1" started-at="2018-07-19T12:54:13Z" finished-at="2018-07-19T12:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMeth -->
+        <test-method status="PASS" signature="largestSmallest()[pri:0, instance:stringfunctions.TestString@4f933fd1]" name="largestSmallest" duration-ms="3" started-at="2018-07-19T12:54:13Z" finished-at="2018-07-19T12:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- largestSmallest -->
+        <test-method status="PASS" signature="afterMeth()[pri:0, instance:stringfunctions.TestString@4f933fd1]" name="afterMeth" is-config="true" duration-ms="1" started-at="2018-07-19T12:54:13Z" finished-at="2018-07-19T12:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMeth -->
+        <test-method status="PASS" signature="beforeMeth()[pri:0, instance:stringfunctions.TestString@4f933fd1]" name="beforeMeth" is-config="true" duration-ms="1" started-at="2018-07-19T12:54:13Z" finished-at="2018-07-19T12:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMeth -->
+        <test-method status="PASS" signature="palindromTest()[pri:0, instance:stringfunctions.TestString@4f933fd1]" name="palindromTest" duration-ms="3" started-at="2018-07-19T12:54:13Z" finished-at="2018-07-19T12:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- palindromTest -->
+        <test-method status="PASS" signature="afterMeth()[pri:0, instance:stringfunctions.TestString@4f933fd1]" name="afterMeth" is-config="true" duration-ms="1" started-at="2018-07-19T12:54:13Z" finished-at="2018-07-19T12:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMeth -->
+        <test-method status="PASS" signature="beforeMeth()[pri:0, instance:stringfunctions.TestString@4f933fd1]" name="beforeMeth" is-config="true" duration-ms="1" started-at="2018-07-19T12:54:13Z" finished-at="2018-07-19T12:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMeth -->
+        <test-method status="PASS" signature="stringManipulation()[pri:0, instance:stringfunctions.TestString@4f933fd1]" name="stringManipulation" duration-ms="5" started-at="2018-07-19T12:54:13Z" finished-at="2018-07-19T12:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stringManipulation -->
+        <test-method status="PASS" signature="afterMeth()[pri:0, instance:stringfunctions.TestString@4f933fd1]" name="afterMeth" is-config="true" duration-ms="0" started-at="2018-07-19T12:54:13Z" finished-at="2018-07-19T12:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMeth -->
+        <test-method status="PASS" signature="beforeMeth()[pri:0, instance:stringfunctions.TestString@4f933fd1]" name="beforeMeth" is-config="true" duration-ms="0" started-at="2018-07-19T12:54:13Z" finished-at="2018-07-19T12:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMeth -->
+        <test-method status="PASS" signature="twoLargNumbersInArray()[pri:0, instance:stringfunctions.TestString@4f933fd1]" name="twoLargNumbersInArray" duration-ms="4" started-at="2018-07-19T12:54:13Z" finished-at="2018-07-19T12:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoLargNumbersInArray -->
+        <test-method status="PASS" signature="afterMeth()[pri:0, instance:stringfunctions.TestString@4f933fd1]" name="afterMeth" is-config="true" duration-ms="1" started-at="2018-07-19T12:54:13Z" finished-at="2018-07-19T12:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMeth -->
+        <test-method status="PASS" signature="beforeMeth()[pri:0, instance:stringfunctions.TestString@4f933fd1]" name="beforeMeth" is-config="true" duration-ms="2" started-at="2018-07-19T12:54:13Z" finished-at="2018-07-19T12:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMeth -->
+        <test-method status="PASS" signature="revString(java.lang.String)[pri:1, instance:stringfunctions.TestString@4f933fd1]" name="revString" duration-ms="4" started-at="2018-07-19T12:54:13Z" data-provider="Authentication" finished-at="2018-07-19T12:54:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- revString -->
+        <test-method status="PASS" signature="afterMeth()[pri:0, instance:stringfunctions.TestString@4f933fd1]" name="afterMeth" is-config="true" duration-ms="1" started-at="2018-07-19T12:54:13Z" finished-at="2018-07-19T12:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMeth -->
+      </class> <!-- stringfunctions.TestString -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

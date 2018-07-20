@@ -1,0 +1,20 @@
+static and `abstract` are two keyword in java,
+it's depend where it's actually written i.e. before class/variable/method..etc.
+
+Basically, static can be written before classes+instance-variables+instance-methods, after written it won't become instance now it's change from instance to class-level.
+
+abstract can be written in front of class and methods only.
+
+Let's say, static first then,
+
+if you write static class (if class is inner) then it will become a member of outer class and behavior same as other static member of class.
+
+if you write static in front of instance-variable or instance-method then it's single 
+copy maintain through out as many object of that class. also, take care about while 
+inheritance in case of.
+
+if class is abstract then you can not instantiate any object of that class whereas you
+ must have to gone through inheritance. if any method is abstract then you must have to 
+ override it, also be aware then if any single method is abstract then you must have to 
+ declare that class as an abstract.
+

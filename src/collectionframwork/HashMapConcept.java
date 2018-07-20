@@ -2,11 +2,13 @@ package collectionframwork;
 
 import java.util.HashMap;
 import java.util.Map.Entry;
+import java.util.function.BiConsumer;
 
 public class HashMapConcept {
 
 	public static void main(String[] args) {
-		// Java HashMap class implements the map interface by using a hashtable. It inherits AbstractMap class and implements Map interface.
+		// Java HashMap class implements the map interface by using a hashtable.
+		//It inherits AbstractMap class and implements Map interface.
 
 		//The important points about Java HashMap class are:
 
@@ -15,24 +17,27 @@ public class HashMapConcept {
 		//It may have one null key and multiple null values.
 		//It maintains no order.
 		//hashmap is non-synchronised  -- not thread safe
-		//It gives Concurrent modification exception -- in case of Fail - Fast condition
+		//It gives Concurrent modification exception -- in case of Fail -Fast condition
 		
 		HashMap<Integer,String> map=new HashMap<Integer,String>();
 		 map.put(1, "QTP");
 		 map.put(2, "Selenium");
 		 map.put(3, "winrunner");
 		 map.put(4, "Silk test");
+		 map.put(5, "Silk ");
 		 map.put(null, null);
 		  System.out.println(map.get(1));
 		  System.out.println(map.get(5));
 		  
-		  
+		  map.forEach((k,v)->System.out.println("Item : " + k + " Count : " + v));
 		  for(Entry en:map.entrySet()){
 			  
 			  System.out.println(en.getKey() + " -- "+en.getValue());
 			  
-		  }
-		  System.out.println(map);
+			  
+			  
+		  } 
+		  System.out.println(map.get(4));
 
 		  map.remove(3);
 		  System.out.println(map);
